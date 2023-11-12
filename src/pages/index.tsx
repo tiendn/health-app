@@ -1,11 +1,10 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
 import Layout from "@/components/global/Layout";
-import PrimaryButton from "@/components/common/button/LinearButton";
-
-const inter = Inter({ subsets: ["latin"] });
+import useWindowSize from "@/hook/useWindowSize";
+import { Colors } from "@/theme/colors";
 
 export default function Home() {
+	const size = useWindowSize();
 	return (
 		<>
 			<Head>
@@ -15,7 +14,15 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Layout>
-				<h1>六角形メニュー用</h1>
+				<div
+					style={{
+						height: size.height - 270,
+						color: Colors.primary[300],
+						textAlign: "center",
+					}}
+				>
+					<h1>こんにちは</h1>
+				</div>
 			</Layout>
 		</>
 	);
