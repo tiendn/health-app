@@ -1,0 +1,46 @@
+.cardHeader {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 4 columns with equal width */
+    gap: 12px;
+    margin-bottom: 56px;
+}
+
+.cardHeaderItem {
+    min-height: 240px;
+    border: 24px solid #FFCC21;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardHeaderItemImageOverlay {
+    opacity: 0.6;
+    background-color: #000000;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cardHeaderItemImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.cardHeaderItemContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 9;
+    gap: 10px;
+}

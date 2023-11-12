@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly 1`] = `
+<div
+  className="badge"
+  style={
+    {
+      "backgroundColor": "#EA6C00",
+      "borderRadius": 8,
+      "color": "#FFFFFF",
+      "height": 16,
+      "width": 16,
+    }
+  }
+>
+  <span
+    className="badgeValue className"
+  >
+    3
+  </span>
+</div>
+`;

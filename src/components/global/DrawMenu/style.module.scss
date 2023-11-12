@@ -1,0 +1,33 @@
+.drawMenu {
+    position: absolute;
+    top: 32px;
+    right: 0;
+    -moz-transition: height 1s ease;
+    -webkit-transition: height 1s ease;
+    -o-transition: height 1s ease;
+    transition: height 1s ease;
+}
+
+.drawMenuItem {
+    width: 280px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-bottom: 1px solid #656565;
+    border-top: 1px solid #8b8b8b;
+}
+
+.drawMenuItemLink {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.drawMenuItemText {
+    font-size: 18px;
+}

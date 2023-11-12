@@ -1,0 +1,58 @@
+
+
+.exerciseContainer {
+    padding: 15px 56px;
+    margin-bottom: 56px;
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #777777; 
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #FFCC21; 
+    }
+}
+
+.exerciseList {
+    overflow-y: auto;
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 4 columns with equal width */
+    grid-row-gap: 8px;
+    max-height: 192px;
+}
+
+.exerciseItem {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exerciseItemDot {
+    margin-top: 4px;
+    font-size: 5px;
+    margin-right: 8px;
+}
+
+.exerciseItemTitleKcal {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+}
+
+.rowAlignCenter {
+    align-items: center;
+}

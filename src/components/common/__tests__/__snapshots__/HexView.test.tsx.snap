@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly 1`] = `
+<div
+  className="hexViewContainer"
+  onClick={[Function]}
+>
+  <img
+    alt="icon"
+    data-nimg="1"
+    decoding="async"
+    height={56}
+    loading="lazy"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="/_next/image?url=%2Fimages%2Ficons%2Fknife.png&w=128&q=75"
+    srcSet="/_next/image?url=%2Fimages%2Ficons%2Fknife.png&w=64&q=75 1x, /_next/image?url=%2Fimages%2Ficons%2Fknife.png&w=128&q=75 2x"
+    style={
+      {
+        "color": "transparent",
+      }
+    }
+    width={56}
+  />
+  <span
+    className="hexViewText className"
+  >
+    Morning
+  </span>
+</div>
+`;

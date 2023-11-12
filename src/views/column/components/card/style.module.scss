@@ -1,0 +1,33 @@
+.cardHeader {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns with equal width */
+    margin-bottom: 56px;
+    gap: 32px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cardHeaderItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 144px;
+    // width: 216px;
+}
+
+.cardHeaderItemTitle {
+    font-size: 22px;
+}
+
+.cardHeaderItemDivider {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    align-self: center;
+    width: 56px;
+    height: 0px;
+    border-top: 1px solid #FFFFFF
+}
+
+.cardHeaderItemContent {
+    font-size: 18px;
+}

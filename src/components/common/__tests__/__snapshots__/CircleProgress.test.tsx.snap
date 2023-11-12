@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge renders correctly 1`] = `
+[
+  <svg
+    className="circleProgress"
+    height={181}
+    width={181}
+  >
+    <circle
+      className="progressBar"
+      cx={90.5}
+      cy={90.5}
+      r={90.5}
+      strokeDasharray={568.6282702997526}
+      strokeDashoffset={398.03978920982684}
+      strokeWidth="3"
+    />
+  </svg>,
+  <div
+    className="circleProgressContent className"
+  >
+    <span
+      className="circleProgressDate"
+    >
+      2023
+    </span>
+    <span
+      className="circleProgressText"
+    >
+      30
+      %
+    </span>
+  </div>,
+]
+`;

@@ -1,0 +1,22 @@
+[
+	{ "id": 1, "title": "家事全般（立位・軽い）", "kcal": 26, "duration": 600 },
+	{ "id": 2, "title": "ウォーキング（普通）", "kcal": 90, "duration": 1800 },
+	{ "id": 3, "title": "ジョギング（普通）", "kcal": 200, "duration": 1800 },
+	{ "id": 4, "title": "サイクリング（普通）", "kcal": 150, "duration": 1800 },
+	{ "id": 5, "title": "水泳（平泳ぎ）", "kcal": 200, "duration": 1800 },
+	{ "id": 6, "title": "筋トレ（腕立て伏せ）", "kcal": 50, "duration": 600 },
+	{ "id": 7, "title": "ヨガ（普通）", "kcal": 100, "duration": 1800 },
+	{ "id": 8, "title": "ストレッチ（普通）", "kcal": 50, "duration": 600 },
+	{ "id": 9, "title": "ダンス（普通）", "kcal": 150, "duration": 1800 },
+	{ "id": 10, "title": "バドミントン（普通）", "kcal": 150, "duration": 1800 },
+	{ "id": 11, "title": "家事全般（立位・軽い）", "kcal": 26, "duration": 600 },
+	{ "id": 12, "title": "ウォーキング（普通）", "kcal": 90, "duration": 1800 },
+	{ "id": 13, "title": "ジョギング（普通）", "kcal": 200, "duration": 1800 },
+	{ "id": 14, "title": "サイクリング（普通）", "kcal": 150, "duration": 1800 },
+	{ "id": 15, "title": "水泳（平泳ぎ）", "kcal": 200, "duration": 1800 },
+	{ "id": 16, "title": "筋トレ（腕立て伏せ）", "kcal": 50, "duration": 600 },
+	{ "id": 17, "title": "ヨガ（普通）", "kcal": 100, "duration": 1800 },
+	{ "id": 18, "title": "ストレッチ（普通）", "kcal": 50, "duration": 600 },
+	{ "id": 19, "title": "ダンス（普通）", "kcal": 150, "duration": 1800 },
+	{ "id": 20, "title": "バドミントン（普通）", "kcal": 150, "duration": 1800 }
+]

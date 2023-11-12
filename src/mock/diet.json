@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"timestamp": 1698589189799,
+		"title": "魚を食べて頭もカラダも元気に！知っておきたい魚を食べるメリっておきたい魚を食べるメリ",
+		"tags": ["魚料理", "和食", "DHA"],
+		"image": "/images/diet/column-1.jpg"
+	},
+	{
+		"id": 2,
+		"timestamp": 1698589189800,
+		"title": "野菜をたっぷり食べて健康的な生活を！",
+		"tags": ["野菜", "健康", "ビタミン"],
+		"image": "/images/diet/column-2.jpg"
+	},
+	{
+		"id": 3,
+		"timestamp": 1698589189801,
+		"title": "肉を食べて筋肉をつけよう！",
+		"tags": ["肉料理", "筋肉", "タンパク質"],
+		"image": "/images/diet/column-3.jpg"
+	},
+	{
+		"id": 4,
+		"timestamp": 1698589189802,
+		"title": "フルーツでビタミン補給！",
+		"tags": ["フルーツ", "ビタミンC", "アンチエイジング"],
+		"image": "/images/diet/column-4.jpg"
+	},
+	{
+		"id": 5,
+		"timestamp": 1698589189803,
+		"title": "穀物でエネルギー補給！",
+		"tags": ["穀物", "エネルギー", "炭水化物"],
+		"image": "/images/diet/column-5.jpg"
+	},
+	{
+		"id": 6,
+		"timestamp": 1698589189804,
+		"title": "乳製品でカルシウム補給！",
+		"tags": ["乳製品", "カルシウム", "骨"],
+		"image": "/images/diet/column-6.jpg"
+	},
+	{
+		"id": 7,
+		"timestamp": 1698589189805,
+		"title": "豆類でタンパク質補給！",
+		"tags": ["豆類", "タンパク質", "筋肉"],
+		"image": "/images/diet/column-7.jpg"
+	},
+	{
+		"id": 8,
+		"timestamp": 1698589189806,
+		"title": "海藻でミネラル補給！",
+		"tags": ["海藻", "ミネラル", "美肌"],
+		"image": "/images/diet/column-8.jpg"
+	},
+	{
+		"id": 9,
+		"timestamp": 1698589189807,
+		"title": "ナッツで健康的な脂質を！",
+		"tags": ["ナッツ", "脂質", "心臓"],
+		"image": "/images/diet/column-1.jpg"
+	},
+	{
+		"id": 10,
+		"timestamp": 1698589189808,
+		"title": "ハーブとスパイスで風味豊かな食事を！",
+		"tags": ["ハーブ", "スパイス", "風味"],
+		"image": "/images/diet/column-2.jpg"
+	}
+]

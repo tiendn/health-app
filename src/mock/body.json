@@ -1,0 +1,14 @@
+[
+	{ "name": "1月", "weight": 110, "fat": 100 },
+	{ "name": "2月", "weight": 120, "fat": 110 },
+	{ "name": "3月", "weight": 130, "fat": 120 },
+	{ "name": "4月", "weight": 140, "fat": 130 },
+	{ "name": "5月", "weight": 150, "fat": 140 },
+	{ "name": "6月", "weight": 40, "fat": 30 },
+	{ "name": "7月", "weight": 50, "fat": 40 },
+	{ "name": "8月", "weight": 60, "fat": 50 },
+	{ "name": "9月", "weight": 70, "fat": 60 },
+	{ "name": "10月", "weight": 80, "fat": 70 },
+	{ "name": "11月", "weight": 90, "fat": 80 },
+	{ "name": "12月", "weight": 100, "fat": 90 }
+]

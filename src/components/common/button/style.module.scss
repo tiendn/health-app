@@ -1,0 +1,32 @@
+
+.btnLinearGradient {
+    background: linear-gradient(32.95deg, #FFCC21 8.75%, #FF963C 86.64%);
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    height: 56px;
+    // padding: 14px 4px 16px 4px;
+    width: 296px;
+}
+
+.btnLinearGradientText {
+    font-size: 18px;
+}
+
+.btnLinearGradientDisabled {
+    cursor: not-allowed;
+}
+
+.btnPrimary {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 0px 3px 0px;
+    width: 160px;
+    height: 24px;
+    align-items: center;
+    
+}
+
+.btnPrimaryText {
+    font-size: 14px;
+}

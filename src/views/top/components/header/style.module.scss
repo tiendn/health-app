@@ -1,0 +1,43 @@
+
+.headerBody {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 312px;
+}
+
+.headerLeft {
+    width: 42%;
+    background: linear-gradient(225deg, #FFCC21 0%, #FF963C 100%);
+    position: relative;
+}
+
+
+.headerRight {
+    width: 58%;
+    position: relative;
+    
+}
+
+.headerProgress {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+// .circleProgress::after {
+//     content: attr(data-progress) '%';
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+//     width: 100%;
+//     margin: 10px;
+//     border-radius: 50%;
+//     background: white;
+//     font-size: 1rem;
+//     text-align: center;
+// }
