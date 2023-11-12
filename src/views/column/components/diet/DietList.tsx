@@ -13,7 +13,7 @@ const DietList: React.FC = () => {
 
 	const onLoadMore = useCallback(() => {
 		if (!hasReachMax) setPage(page + 1);
-	}, [data]);
+	}, [hasReachMax, page]);
 
 	return (
 		<div className={styles.dietListContainer}>

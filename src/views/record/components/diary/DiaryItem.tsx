@@ -19,7 +19,7 @@ const DiaryItem: React.FC<DiaryItemProps> = ({ timestamp, title, content }) => {
 
 	const width = useMemo(() => {
 		return (size.width - 320 - 12 * 3) / 4;
-	}, []);
+	}, [size.width]);
 
 	return (
 		<div className={styles.diaryItem} style={{ width, height: width, color: Colors.dark[500] }}>

@@ -1,6 +1,6 @@
-import { ApiResponse, DietDDietData, ata, MealHistory, DietData } from "@/types";
+import { ApiResponse, DietData } from "@/types";
 import { fetcher } from "@/utils/fetcher";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import useSWR from "swr";
 
 const useDiet = ({
@@ -27,7 +27,7 @@ const useDiet = ({
 			);
 			setLocalData(result);
 		}
-	}, [data]);
+	}, [data, page]);
 
 	return {
 		data: {

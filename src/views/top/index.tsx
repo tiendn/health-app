@@ -18,7 +18,7 @@ const TopPageView: React.FC = () => {
 	const onLoadMore = useCallback(() => {
 		// Load more
 		if (!hasReachMax) setPage(page + 1);
-	}, [data]);
+	}, [hasReachMax, page]);
 
 	const onChangeType = useCallback((type: MealType | "") => {
 		setType(type);

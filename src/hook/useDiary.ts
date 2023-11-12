@@ -27,7 +27,7 @@ const useDiary = ({
 			);
 			setLocalData(result);
 		}
-	}, [data]);
+	}, [data, page]);
 
 	return {
 		data: {

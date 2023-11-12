@@ -17,7 +17,7 @@ const Diary: React.FC = () => {
 	const onLoadMore = useCallback(() => {
 		// Load more
 		if (!hasReachMax) setPage(page + 1);
-	}, [data]);
+	}, [hasReachMax, page]);
 
 	return (
 		<>

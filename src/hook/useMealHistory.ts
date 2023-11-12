@@ -30,7 +30,7 @@ const useMealHistory = ({
 			);
 			setLocalData(result);
 		}
-	}, [data]);
+	}, [data, page]);
 
 	useEffect(() => {
 		localDataObject.current = {};
